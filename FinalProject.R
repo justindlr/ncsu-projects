@@ -3,7 +3,7 @@ library(tidyverse)
 library(caret)
 
 #Reading in Data
-read.csv("C:\\Users\\Justin\\Documents\\NC State\\Fall 2021\\ST 405\\Data\\high_diamond_ranked_10min.csv",header=T)->df
+read.csv("high_diamond_ranked_10min.csv",header=T)->df
 
 # Split the data into training and test set
 set.seed(123)
